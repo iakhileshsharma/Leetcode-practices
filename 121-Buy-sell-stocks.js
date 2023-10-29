@@ -12,12 +12,12 @@ function stocks(prices){
             PerDayPrices = prices[j]-prices[i];
             MaxProfit = Math.max(MaxProfit, PerDayPrices); // checking the maximum value using Math.max()
         }else{
-            i = j; // else i will be equal to j's value
+            i = j; // Else i will be equal to j's value.
         }
     
-        j++; // here we increamenting j as well
+        j++; // Here we increamenting j as well.
 
     } 
-    return MaxProfit; // returning the maximum value in maxProfit
+    return MaxProfit; // Returning the maximum value in maxProfit
 }      
 console.log(stocks([7,1,5,3,6,4])); // calling the function stocks()
