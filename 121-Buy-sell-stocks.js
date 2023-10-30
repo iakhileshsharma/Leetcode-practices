@@ -11,7 +11,8 @@ function stocks(prices){
         if(prices[i] < prices[j]){  // code will run next two lines only if the condition is true
             PerDayPrices = prices[j]-prices[i];
             MaxProfit = Math.max(MaxProfit, PerDayPrices); // checking the maximum value using Math.max()
-        }else{
+        }
+        else{
             i = j; // Else i will be equal to j's value.
         }
     
