@@ -16,6 +16,6 @@ let finalArray = [];    // Initilizing new empty array to store final value.
             }
         }
     }
-    return finalArray;  // returning newArr 
+    return finalArray;  // returning finalArray outside of the loop 
 }
-console.log(intersect([4,9,5], [9,4,9,8,4]));
+console.log(intersect([4,9,5], [9,4,9,8,4]));  // console logging and calling the function.
