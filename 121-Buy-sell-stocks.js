@@ -1,12 +1,12 @@
 //Creating a function stocks() and calculating the maximum profit from this transaction.
 
-function stocks(prices){
+function stocks(prices) {
   let i = 0; // Initializing the value of i
   let j = 1; // Initializing the value of j 
   let PerDayPrices = 0;
   let MaxProfit = 0;
       
-    while(i<prices.length){ // we will the value of i less than length of given prices[]
+    while(i < prices.length) { // we will the value of i less than length of given prices[]
         
         if(prices[i] < prices[j]){  // code will run next two lines only if the condition is true
             PerDayPrices = prices[j]-prices[i];
