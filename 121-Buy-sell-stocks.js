@@ -7,7 +7,7 @@ function stocks(prices) {
   let MaxProfit = 0;
       
     while(i < prices.length) { // we will the value of i less than length of given prices[]
-        
+                                 // not using for loop because of space and time complexity.
         if(prices[i] < prices[j]){  // code will run next two lines only if the condition is true
             PerDayPrices = prices[j]-prices[i];
             MaxProfit = Math.max(MaxProfit, PerDayPrices); // checking the maximum value using Math.max()
