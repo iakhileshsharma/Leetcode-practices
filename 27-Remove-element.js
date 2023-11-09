@@ -1,3 +1,5 @@
+// Removing elements from an array which will be equal to the val.
+
 function removeElement(nums, val) {
     // Counter for keeping track of elements other than val
     let count = 0;
@@ -8,5 +10,5 @@ function removeElement(nums, val) {
             nums[count++] = nums[i];
         }
     }
-    return count;
+    return count;// returning the value of count
 }
