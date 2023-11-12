@@ -6,7 +6,7 @@ var twoSum = function(nums, target) {
         for(let j = i+1; j<nums.length; j++){
             const finalnum = nums[i] + nums[j];//adding the value of nums and storing it in finalnum variable.
             
-            if(finalnum === target)
+            if(finalnum === target) //Giving a condition for checking if the finalnum is equal to the given tagret or not
             
             return [i,j]; // Returnng the value of i and j (indexes only)
         }
