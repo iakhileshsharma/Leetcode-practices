@@ -6,7 +6,7 @@ function PlusOne(digits){
     let result = sum.toString().split("");
     
     // Using (for loop) to iterate on every index(result[i]) to make it int
-    for(let i=0; i<result.length; i++){
+    for(let i=0; i < result.length; i++) {
         result[i] = parseInt(result[i]);
     }
         
