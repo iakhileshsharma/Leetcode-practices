@@ -3,5 +3,9 @@
 // Output = 1
 
 function thirdMax(nums){
+    nums.sort();
+    
+    
     
 }
+console.log(thirdMax([3,2,1]));
