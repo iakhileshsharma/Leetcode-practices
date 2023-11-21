@@ -9,13 +9,13 @@ function moveZeroes(nums){
     let j = 0;
 
 
-    while(i<nums.length){
-        if(nums[i]!=0){
-            [nums[i], nums[j]] = [nums[j], nums[i]];
-            j++;
+    while(i<nums.length){  // while loop with the condition of i must be smaller than length of nums.
+        if(nums[i]!=0){    // If statement for checking if the number is equal to zero or not. 
+            [nums[i], nums[j]] = [nums[j], nums[i]];  // Elements will swap only if the condition is true.
+            j++;           // Increamenting only the value of j
         }
-        i++;
+        i++;     // Increamenting value of i outside the if block
     }
-    return nums;
+    return nums; // returning nums 
 }
 console.log(moveZeroes([0,1,0,3,12]));
