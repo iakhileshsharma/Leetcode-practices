@@ -3,12 +3,12 @@
 // Output = true
 
 function containsDuplicate(nums){
-    nums.sort((a,b) => a-b);
-    for(let i = 0; i <= nums.length-1; i++){
-        if(nums[i] === nums[i+1]){
+    nums.sort((a,b) => a-b); // Firstly using sort() method to sort an array in asc order. 
+    for(let i = 0; i <= nums.length-1; i++){  //Looping through the array(nums[]) with variable i and upto nums.length-1.
+        if(nums[i] === nums[i+1]){   // if statement in for loop to check the condition. 
             return true
         }
     }
     return false
 }
-console.log(containsDuplicate([1,2,3,1]));
+console.log(containsDuplicate([1,2,3,1])); //consoling and calling function containsDuplicate
