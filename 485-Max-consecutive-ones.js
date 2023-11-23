@@ -2,7 +2,7 @@
 // Input = [1,1,0,1,1,1]
 // Output = 3
 
-function findConsecutiveOnes(nums){ // 
+function findConsecutiveOnes(nums){ 
     let max = 0;  // Initilizing max and current as a variable to add values later in code.
     let current = 0;
 
