@@ -1,17 +1,23 @@
 function majorityElement(nums){
- let obj = {};
- let key = Object.keys(obj);
-    
-    for(let i = 0; i<nums.length; i++){
-        if(obj.nums[i] != nums[i]){
-            obj.nums[i] = 1;
-        }else{
-            obj.nums[i] += 1;
-        }
+  let obj = {};
+  let lengthTosearch = nums.length /2;
+
+  for(let i = 0; i<nums.length; i++){
+    if(!obj[nums[i]]){
+      obj[nums[i]] = 0;
     }
+
+    obj[nums[i]]++;
+
+    if(obj[nums[i]] >= lengthTosearch){
+      return nums[i];
+    }
+  }
+  return null;
+   
 }
-//console.log(majorityElement([3,2,3]));
-majorityElement([3,2,3]);
+console.log(majorityElement([3,2,3]));
+
 
 
 
