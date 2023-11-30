@@ -22,6 +22,6 @@ function findDuplicate(nums){
         }
     }
 }
-//console.log(findDuplicate([1,3,4,2,2]));
-//console.log(findDuplicate([3,1,3,4,2]));
+console.log(findDuplicate([1,3,4,2,2]));
+console.log(findDuplicate([3,1,3,4,2]));
 console.log(findDuplicate([1,1]));
