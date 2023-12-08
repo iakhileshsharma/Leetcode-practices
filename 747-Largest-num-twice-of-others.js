@@ -19,15 +19,6 @@ function dominantIndex(nums){
     }
     return -1;
 
-    // for(let i = nums.length; i>=0; i--){
-        
-    //        fact = nums[i-1] * 2;
-    //        if(nums[i] > fact){
-    //            return i;
-    //        }
-    // }
-    // return -1;
-
 }
-console.log(dominantIndex([3,6,1,0]));
+console.log(dominantIndex([3,6,1,0])); //c
 //dominantIndex([3,6,1,0]);
