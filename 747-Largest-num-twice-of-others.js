@@ -5,8 +5,7 @@
 // The index of value 6 is 1, so we return 1.
 
 function dominantIndex(nums){
-    let arr=[...nums];
-
+  let arr=[...nums];   //creates a new array by using spread syntax to copy elements from an existing elements.
   arr.sort((a,b)=>a-b);
  if( arr[arr.length-1]>=arr[arr.length-2]*2){
      return nums.indexOf(arr[arr.length-1]);
