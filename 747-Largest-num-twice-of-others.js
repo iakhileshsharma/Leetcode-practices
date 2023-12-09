@@ -14,5 +14,5 @@ function dominantIndex(nums){
  } 
 
 }
-console.log(dominantIndex([3,6,1,0])); //consoling
+console.log(dominantIndex([3,6,1,0])); //consoling and returning function.
 //dominantIndex([3,6,1,0]);
