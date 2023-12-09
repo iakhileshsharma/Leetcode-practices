@@ -7,8 +7,8 @@
 function dominantIndex(nums){
   let arr=[...nums];   //creates a new array by using spread syntax to copy elements from an existing elements.
   arr.sort((a,b)=>a-b);
- if( arr[arr.length-1]>=arr[arr.length-2]*2){
-     return nums.indexOf(arr[arr.length-1]);
+ if( arr[arr.length-1]>=arr[arr.length-2]*2){ // if statement to check the given condition true or not.
+     return nums.indexOf(arr[arr.length-1]);  // as given in the problem if condition true return index of the particular value.
  }else{
      return -1
  } 
