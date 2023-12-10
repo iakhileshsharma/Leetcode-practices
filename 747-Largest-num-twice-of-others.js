@@ -20,5 +20,5 @@ function dominantIndex(nums){
     return -1;
 
 }
-console.log(dominantIndex([3,6,1,0])); //c
+console.log(dominantIndex([3,6,1,0])); //consoling
 //dominantIndex([3,6,1,0]);
