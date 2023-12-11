@@ -5,19 +5,14 @@
 // The index of value 6 is 1, so we return 1.
 
 function dominantIndex(nums){
-    let i = 0;
-    let fact = 0;
-    
-    while(i<nums.length){
-        
-           fact = nums[i+1] * 2;
-           if(nums[i] > fact){
-               return i;
-           }
-        
-        i++;
-    }
-    return -1;
+    let arr=[...nums];
+
+  arr.sort((a,b)=>a-b);
+ if( arr[arr.length-1]>=arr[arr.length-2]*2){
+     return nums.indexOf(arr[arr.length-1]);
+ }else{
+     return -1
+ } 
 
 }
 console.log(dominantIndex([3,6,1,0])); //consoling
