@@ -22,3 +22,4 @@ function disappearedNumbers(nums){
     return finalArr;         // Return finallArr
 }
 console.log(disappearedNumbers([4,3,2,7,8,2,3,1]));  // consoling and calling the function
+console.log(disappearedNumbers([1,1]));  // consoling and calling the function
