@@ -19,6 +19,6 @@ function disappearedNumbers(nums){
           finalArr.push(i);  // if it does not matches the element of object push in the final Arr
         }
     }
-    return finalArr;
+    return finalArr;         // Return finallArr
 }
-console.log(disappearedNumbers([4,3,2,7,8,2,3,1]));
+console.log(disappearedNumbers([4,3,2,7,8,2,3,1]));  // consoling and calling the function
