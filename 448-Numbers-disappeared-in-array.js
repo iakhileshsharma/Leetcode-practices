@@ -5,39 +5,19 @@
 // Output: [5,6]
 
 function disappearedNumbers(nums){
-    // let finalArr = [];
-    // let n = nums.length;
-  
-    //   nums.sort((a, b) => a-b); 
-    //   //let newArr = [...new Set(nums)];
-  
-  
-    //     for(let j = 0; j<nums.length; j++){
-    //       let i=j+1;
-    //         if(nums.length == 1)
-    //         {
-    //           finalArr.push(nums[j] +1)
-    //         }
-    //         else if(i != nums[j])  
-    //         {
-    //           finalArr.push(i);
-    //         }
-    //     }
-    //    return finalArr;
-
-    let n = nums.length;
-    let finalArr=[];
-    let obj ={};
-     for(let el of nums){
-if(!obj[el]){
-    obj[el]=1;
-}
+    let n = nums.length;   // As given in the problem length of nums[] will be equal to n. So initilizing n globally.
+    let finalArr=[];       // Initilizing epty array as finalArr to store the result.
+    let obj ={};           // initilizing empty object to to add elements of nums into this object.  
+     for(let el of nums){   // Looping through nums with el
+        if(!obj[el]){
+          obj[el]=1;        // if the condition is true put obj[el] =1.
+        }
     }
    
-    for(let i=1;i<=n;i++){
-if(!obj[i]){
-    finalArr.push(i);
-}
+    for(let i=1;i<=n;i++){   // another for loop tp iterate upto n
+        if(!obj[i]){
+          finalArr.push(i);  // if it does not matches the element of object push in the final Arr
+        }
     }
     return finalArr;
 }
