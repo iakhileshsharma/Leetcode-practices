@@ -4,17 +4,22 @@
 // Output: 1
 
 function singleNumber(nums){
-   let obj = {};
-   let i = 0;
+  let obj = {};
 
-   for(i ; i < nums.length; i++){
-       if(!obj[nums[i]]){
-        obj[nums[i]] = 0;
-       }
-       obj[nums[i]]++;
+  for(let i of nums){
+    if(!obj[i]){
+        obj[i] = 1;
+    }else{
+        obj[i] += 1;
     }
-   
+  }
+  for(let j = 0; j<nums.length; j++){
+    if(obj[nums[j]] == 1){
+        return nums[j];
+    }
+  }
 }
 
-
-console.log(singleNumber([4,1,2,1,2]))
+console.log(singleNumber([4,1,2,1,2]));
+console.log(singleNumber([2,2,1]));
+console.log(singleNumber([1]));
