@@ -10,7 +10,7 @@ function findRestaurant(list1, list2){
     while(i<list1.length){
         for(let j = 0; j,list2.length; j++){
             if(list1[i] == list2[j]){
-               indexSum = i + j;
+               
             }
         }
     i++;
