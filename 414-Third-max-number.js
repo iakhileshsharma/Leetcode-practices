@@ -7,7 +7,7 @@
 // The third distinct maximum is 1.
  
 
-function thirdMax(nums){
+function thirdMax(nums){      // creating function to calculate thirdmaximum number with parameter nums.
   nums.sort(function (a, b) {
     return a-b;
   }).reverse();   // Using sort() method for nums[], with a compare function(so it does not work as string)

@@ -3,8 +3,8 @@
 // Output = 3
 
 function findConsecutiveOnes(nums){ 
-    let max = 0;  // Initilizing max and current as a variable to add values later in code.
-    let current = 0;
+    let max = 0;                 // Initilizing max and current as a variable to add values later in code.
+    let current = 0;             // Initilizing current variable to store value after, if the given will be true in line 10.
 
      for(let i = 0; i< nums.length; i++){  // looping through nums[] with variable i
         if(nums[i] == 1){    // Using if else statements to check the different conditions 
