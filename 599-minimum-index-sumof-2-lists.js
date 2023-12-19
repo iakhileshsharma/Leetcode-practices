@@ -5,7 +5,7 @@
 
 function findRestaurant(list1, list2){
     for(let i = 0; i< list1.length; i++){
-        hdjhjdhqwd
+        
     }
 }
 
