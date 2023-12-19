@@ -18,12 +18,12 @@ function maximumDifference(nums) {
        }
     i++;                                            // increamenting i by plus one after the if condition.
     }
-    if(result >= 1){
+    if(result >= 1){                                // Another if condition to check weather the vlue of result is negative or not.
         return result;
     }else {
-        return -1;
+        return -1;                                  // if the given condition in line 21 is true then return value of result, or return -1.
     }
 }
-console.log(maximumDifference([7,1,5,4]));
+console.log(maximumDifference([7,1,5,4]));          // consoling and calling the function.
 console.log(maximumDifference([9,4,3,2]));
 console.log(maximumDifference([1,2]));
