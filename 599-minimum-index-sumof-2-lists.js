@@ -4,6 +4,9 @@
 // Explanation: The only common string is "Shogun".
 
 function findRestaurant(list1, list2){
+    for(let i = 0; i< list1.length; i++){
+        hdjhjdhqwd
+    }
 }
 
 console.log(findRestaurant(["Shogun","Tapioca Express","Burger King","KFC"],["Piatti","The Grill at Torrey Pines","Hungry Hunter Steakhouse","Shogun"]));
