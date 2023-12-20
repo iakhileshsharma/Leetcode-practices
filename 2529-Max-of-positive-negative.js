@@ -13,12 +13,12 @@ function maximumCount(nums){
           if(nums[i] < 0){
             negtiveCount += 1;                     // if the conditon is true in line number 13 then add 1 into negativeCount.
           } else if(nums[i] > 0){
-            postiveCount += 1;
+            postiveCount += 1;                     // else the condition in line 15 is true then plus 1 in positiveCount.
           }
       }
     result = Math.max(negtiveCount, postiveCount);
-    return result;
+    return result;                                 // returning the result with after comapring both negativeCount and Positivecount with Math.max function. 
 }
-console.log(maximumCount([-2,-1,-1,1,2,3]));
-console.log(maximumCount([-3,-2,-1,0,0,1,2]));
+console.log(maximumCount([-2,-1,-1,1,2,3]));        
+console.log(maximumCount([-3,-2,-1,0,0,1,2]));      // consoling and callling the function.
 console.log(maximumCount([5,20,66,1314]));
