@@ -5,18 +5,18 @@
 // Note that 0 is neither positive nor negative.
 
 function maximumCount(nums){
-    let negCount = 0;          // Initilizing negCount to store number of negative integer in nums.
-    let posCount = 0;          // Initilizing posCount to store number of positive integers in nums.
-    let result = 0;
+    let negtiveCount = 0;          // Initilizing negtiveCount to store number of negative integer in nums.
+    let postiveCount = 0;          // Initilizing postiveCount to store number of positive integers in nums.
+    let result = 0;                // Initilizing result for the final check between negtiveCount And postiveCount.
   
-      for(let i = 0; i<nums.length; i++){
+      for(let i = 0; i<nums.length; i++){      // Looping through nums with variable i.
           if(nums[i] < 0){
-            negCount += 1;
+            negtiveCount += 1;                     // if the conditon is true in line number 13 then add 1 into negativeCount.
           } else if(nums[i] > 0){
-            posCount += 1;
+            postiveCount += 1;
           }
       }
-    result = Math.max(negCount, posCount);
+    result = Math.max(negtiveCount, postiveCount);
     return result;
 }
 console.log(maximumCount([-2,-1,-1,1,2,3]));
