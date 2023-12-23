@@ -6,9 +6,9 @@ function findDuplicates(nums){
     let obj = {};             // Initilizing empty object to use hashing concept.
     let n = nums.length;
 
-    for(let el in nums){
+    for(let el in nums){       // ForEach loop with el variable to iterate through nums.
        if(!obj[el]){
-        obj[el] += 1;
+        obj[el] += 1;          // if the condition in line 10 is true, then add +1 value to obj[el].
        }
     }
     for(let i = 0; i< n; i++){
