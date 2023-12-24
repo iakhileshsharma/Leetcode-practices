@@ -6,14 +6,14 @@
 function findDuplicates(nums){
     let finalArr = [];        //Initilizing empty array to final result
     let obj = {};             // Initilizing empty object to use hashing concept.
-    let n = nums.length;
+    let n = nums.length;      // Initilizing n which is equal to length of nums.
 
     for(let el in nums){       // ForEach loop with el variable to iterate through nums.
        if(!obj[el]){
         obj[el] += 1;          // if the condition in line 10 is true, then add +1 value to obj[el].
        }
     }
-    for(let i = 0; i< n; i++){
+    for(let i = 0; i< n; i++){  // Simple for loop to iterate upto n.
         if(obj[i]){
 
         }     
