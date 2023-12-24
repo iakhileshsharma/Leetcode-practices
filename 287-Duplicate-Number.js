@@ -10,7 +10,7 @@ function findDuplicate(nums){
         if(!obj[i]){
             obj[i] = 1;                //  if the given condition in line 10 is true, then equals obj[i] to 1.
         }else{
-            obj[i] += 1;
+            obj[i] += 1;               // if the obj[i] is already exists in obj than adds one more value.
         }
     }
     for(let j = 1; j <= n; j++){        // Another for loop with variable j t iterate through nums[] upto the length of nums.

@@ -3,7 +3,7 @@
 // Input: nums = [1,1,2]
 // Output: [1]
 
-function findDuplicates(nums){
+function findDuplicates(nums){   // function with the nums parameters.
 let finalArr = [];              // Initilizing finalArr as empty array to store final result.
 let obj = {};             
 let n = nums.length;            // Initilizing n variable equals to length of the nums as given in a problem nums are in the range of [1,n]
@@ -25,7 +25,7 @@ let n = nums.length;            // Initilizing n variable equals to length of th
 
 console.log(findDuplicates([4,3,2,7,8,2,3,1]));  // consoling and caling the function with multiple edge cases given the problem.
 console.log(findDuplicates([1,1,2]));
-console.log(findDuplicates([2,2]));
+console.log(findDuplicates([2,2]));             
 
 
 
