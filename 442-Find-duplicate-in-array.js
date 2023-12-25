@@ -12,9 +12,18 @@ function findDuplicates(nums){
        }
     }
     for(let i = 0; i< n; i++){
-
+        finalArr.push(i);
     }
 }
+
 console.log(findDuplicates([4,3,2,7,8,2,3,1]));
 console.log(findDuplicates([1,1,2]));
-console.log(findDuplicates([1]));
+console.log(findDuplicates([1])); 
+
+
+
+
+
+
+
+
