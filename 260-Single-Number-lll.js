@@ -13,6 +13,7 @@ function singleNumber(nums){
           obj[i] += 1;          
       }
     }
+    
     for(let j = 0; j<nums.length; j++){   // Another for loop with variable j t iterate through nums[] upto the length of nums.
       if(obj[nums[j]] == 1){              // If any of the element in obj is equals to 1, then return that element.
           finalArr.push(nums[j]);          // pushing that element in finalArr with all the elements which appear single time.
