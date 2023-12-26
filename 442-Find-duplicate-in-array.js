@@ -2,8 +2,8 @@
 // Output: [2,3]
 
 function findDuplicates(nums){
-    let finalArr = [];
-    let obj = {};
+    let finalArr = [];        //Initilizing empty array to final result
+    let obj = {};             // Initilizing empty object to use hashing concept.
     let n = nums.length;
 
     for(let el in nums){
