@@ -2,8 +2,8 @@
 // is in the range [1, n] inclusive.
 // Input: nums = [1,3,4,2,2]  Output: 2
 
-function findDuplicate(nums){
-    let obj = {};
+function findDuplicate(nums){           // creating function findduplicate with nums parameters.
+    let obj = {};                      // empty object to use hash mapping.
     let n = nums.length - 1;           // Initilizing n equals to nums.length -1.
     
     for(let i of nums){                // for each loop to iterate through nums
