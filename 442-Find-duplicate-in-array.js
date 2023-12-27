@@ -15,7 +15,8 @@ function findDuplicates(nums){
     }
     for(let i = 0; i< n; i++){  // Simple for loop to iterate upto n.
         if(obj[i]){
-           finalArr.push
+           finalArr.push(obj[i]);
+           return finalArr;
         }     
     }
 }
