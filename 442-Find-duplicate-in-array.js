@@ -8,9 +8,9 @@ let finalArr = [];              // Initilizing finalArr as empty array to store 
 let obj = {};             
 let n = nums.length;            // Initilizing n variable equals to length of the nums as given in a problem nums are in the range of [1,n]
 
-    for(let el of nums){     
+    for(let el of nums){        // Foreach loopwith el variable to iterate through nums.
         if(!obj[el]){
-            obj[el] = 1;                
+            obj[el] = 1;        // if obj[el] is not there then equals it to 1.      
         }else{
             obj[el] += 1;
         }
