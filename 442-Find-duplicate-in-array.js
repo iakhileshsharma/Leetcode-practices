@@ -15,9 +15,9 @@ let n = nums.length;            // Initilizing n variable equals to length of th
             obj[el] += 1;       // if obj[el] is already exists in the obj then adds one more to value of that key.
         }
     }
-    for(let i = 1; i<= n; i++){
+    for(let i = 1; i<= n; i++){   // for loop to iterate through upto n with i variable.
         if(obj[i] > 1){
-            finalArr.push(i);
+            finalArr.push(i);    //
         }   
     }
     return finalArr;
