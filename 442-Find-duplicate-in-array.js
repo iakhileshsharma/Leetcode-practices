@@ -4,9 +4,9 @@
 // Output: [1]
 
 function findDuplicates(nums){
-let finalArr = [];        
+let finalArr = [];              // Initilizing finalArr as empty array to store final result.
 let obj = {};             
-let n = nums.length;      
+let n = nums.length;            // Initilizing n variable equals to length of the nums as given in a problem nums are in the range of [1,n]
 
     for(let el of nums){     
         if(!obj[el]){
