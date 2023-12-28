@@ -12,7 +12,7 @@ let n = nums.length;            // Initilizing n variable equals to length of th
         if(!obj[el]){
             obj[el] = 1;        // if obj[el] is not there then equals it to 1.      
         }else{
-            obj[el] += 1;
+            obj[el] += 1;       // if obj[el] is already exists in the obj then adds one more to value of that key.
         }
     }
     for(let i = 1; i<= n; i++){
