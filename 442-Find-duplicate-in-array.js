@@ -16,8 +16,8 @@ let n = nums.length;            // Initilizing n variable equals to length of th
         }
     }
     for(let i = 1; i<= n; i++){   // for loop to iterate through upto n with i variable.
-        if(obj[i] > 1){
-            finalArr.push(i);    //
+        if(obj[i] > 1){           // if the obj[i] is greater than 1 then excution will go in the next line.
+            finalArr.push(i);    
         }   
     }
     return finalArr;
