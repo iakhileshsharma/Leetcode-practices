@@ -20,7 +20,7 @@ let n = nums.length;            // Initilizing n variable equals to length of th
             finalArr.push(i);     // if the condition is true then add the value of i into finalArr 
         }   
     }
-    return finalArr;
+    return finalArr;              // return finalArr outside the for loop
 }
 
 console.log(findDuplicates([4,3,2,7,8,2,3,1]));  // consoling and caling the function with multiple edge cases given the problem.
