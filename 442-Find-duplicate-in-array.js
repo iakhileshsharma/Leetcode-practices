@@ -23,7 +23,7 @@ let n = nums.length;            // Initilizing n variable equals to length of th
     return finalArr;
 }
 
-console.log(findDuplicates([4,3,2,7,8,2,3,1]));
+console.log(findDuplicates([4,3,2,7,8,2,3,1]));  // consoling and caling the function with multiple edge cases given the problem.
 console.log(findDuplicates([1,1,2]));
 console.log(findDuplicates([2,2]));
 
