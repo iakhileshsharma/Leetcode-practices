@@ -4,9 +4,9 @@
 // Output: [1]
 
 function findDuplicates(nums){
-    let finalArr = [];        
-    let obj = {};             
-    let n = nums.length;      
+let finalArr = [];        
+let obj = {};             
+let n = nums.length;      
 
     for(let el of nums){     
         if(!obj[el]){
@@ -23,7 +23,8 @@ function findDuplicates(nums){
     return finalArr;
 }
 
-//console.log(findDuplicates([4,3,2,7,8,2,3,1]));
+console.log(findDuplicates([4,3,2,7,8,2,3,1]));
+console.log(findDuplicates([1,1,2]));
 console.log(findDuplicates([2,2]));
 
 
