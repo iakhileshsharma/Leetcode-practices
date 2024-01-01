@@ -1,5 +1,10 @@
+// All the given cases in problem
 // Input: nums = [7,1,5,4]
 // Output: 4
+// Input: nums = [1,5,2,10]
+// Output: 9
+// Input: nums = [9,4,3,2]
+// Output: -1
 
 function maximumDifference(nums) {
     let i = 0;
@@ -13,15 +18,14 @@ function maximumDifference(nums) {
             result = Math.max(result, max);
         }
        }
-       i++;
+    i++;
     }
-    return result;
-
-    
-
-    
-    
+    if(result > 1){
+        return result;
+    }else {
+        return -1;
+    }
 }
 console.log(maximumDifference([7,1,5,4]));
-//console.log(maximumDifference([9,4,3,2]));
+console.log(maximumDifference([9,4,3,2]));
 console.log(maximumDifference([1,5,2,10]));
