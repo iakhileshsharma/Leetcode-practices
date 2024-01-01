@@ -20,7 +20,7 @@ function maximumDifference(nums) {
        }
     i++;
     }
-    if(result > 1){
+    if(result >= 1){
         return result;
     }else {
         return -1;
@@ -28,4 +28,4 @@ function maximumDifference(nums) {
 }
 console.log(maximumDifference([7,1,5,4]));
 console.log(maximumDifference([9,4,3,2]));
-console.log(maximumDifference([1,5,2,10]));
+console.log(maximumDifference([1,2]));
