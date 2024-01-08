@@ -6,12 +6,12 @@
 //  profit = 4-1 = 3.
 
 function maxProfit(nums){
-    let i = 0;                 // Initializing the value of i
-    let TotalProfit = 0;       // initializing variable to calculate final profit.
+    let i = 0;                 
+    let TotalProfit = 0;       
     let profit = 0;
 
-      while(i<prices.length){                    // i must be lesser than the length of prices[]
-        let j = i+1;                             // Initializing j here because we want to increament both i and j at the same time.
+      while(i<prices.length){                   
+        let j = i+1;                            
             if(prices[i] < prices[j]){
               profit = prices[j] - prices[i];
               TotalProfit = TotalProfit + prof
@@ -20,4 +20,6 @@ function maxProfit(nums){
       }
     }
 
+console.log(maxProfit([3,3,5,0,0,3,1,4]));
+console.log(maxProfit([3,3,5,0,0,3,1,4]));
 console.log(maxProfit([3,3,5,0,0,3,1,4]));
