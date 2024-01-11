@@ -5,8 +5,9 @@
 function numIdenticalPairs(nums){
 let len = nums.length;
 let finalPair = 0;
-  for(let i =0  ;i < len ;i ++){
-      for(let j=i+1 ; j <len;j++){
+
+  for(let i = 0; i < len ; i ++){
+      for(let j= i+1 ; j < len; j++){
            if(nums[i]===nums[j]) 
            finalPair++;
       }
