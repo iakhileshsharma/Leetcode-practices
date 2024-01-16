@@ -7,6 +7,7 @@ function uniqueOccurrences(nums){
         if(!obj[elem]) obj[elem] = 0
         ++obj[elem]
     }
+    let occurences = Object.values(obj)
 }
 
 console.log(uniqueOccurrences([1,2,2,1,1,3]));
