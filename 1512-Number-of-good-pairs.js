@@ -15,6 +15,6 @@ let finalPair = 0;                // Initilzing finalpair variable to store fina
   return finalPair;                  // returning finalpair
 }
 
-console.log(numIdenticalPairs([1,2,3,1,1,3]));
+console.log(numIdenticalPairs([1,2,3,1,1,3]));   // consoling and calling the function.
 console.log(numIdenticalPairs([1,1,1,1]));
 console.log(numIdenticalPairs([1,2,3]));
