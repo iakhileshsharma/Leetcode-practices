@@ -8,6 +8,8 @@ function uniqueOccurrences(nums){
         ++obj[elem]
     }
     let occurences = Object.values(obj)
+
+    let set = new Set()
 }
 
 console.log(uniqueOccurrences([1,2,2,1,1,3]));
