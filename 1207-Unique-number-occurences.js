@@ -10,6 +10,13 @@ function uniqueOccurrences(nums){
     let occurences = Object.values(obj)
 
     let set = new Set()
+    for(let elem of occurences){
+        if(set.has(elem)) return false
+
+        set.add(elem)
+    }
+
+    return true
 }
 
 console.log(uniqueOccurrences([1,2,2,1,1,3]));
