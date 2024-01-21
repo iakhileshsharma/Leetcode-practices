@@ -5,6 +5,7 @@ function uniqueOccurrences(nums){
     let obj = {}
     for(let elem of arr){
         if(!obj[elem]) obj[elem] = 0
+        ++obj[elem]
     }
 }
 
