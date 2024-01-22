@@ -10,7 +10,7 @@ function dominantIndex(nums){
  if( arr[arr.length-1]>=arr[arr.length-2]*2){    // if statement to check the given condition true or not.
      return nums.indexOf(arr[arr.length-1]);     // as given in the problem if condition true return index of the particular value.
  }else{
-     return -1
+     return -1                                   // returning -1 if the condition is not true.
  } 
 
 }
