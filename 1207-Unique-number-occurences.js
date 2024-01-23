@@ -3,6 +3,9 @@
 
 function uniqueOccurrences(nums){
     let obj = {}
+    for(let elem of arr){
+        if(!obj[elem]) obj[elem] = 0
+    }
 }
 
 console.log(uniqueOccurrences([1,2,2,1,1,3]));
