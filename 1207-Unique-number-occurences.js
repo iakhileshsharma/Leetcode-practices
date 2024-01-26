@@ -2,12 +2,12 @@
 // Output: true
 
 function uniqueOccurrences(nums){
-    let obj = {};
-    for(let elem of arr){
+    let obj = {};                     //Initilizing obj to use hash map.
+    for(let elem of arr){              // using for each loop
         if(!obj[elem]) obj[elem] = 0
         ++obj[elem]
     }
-    let occurences = Object.values(obj);
+    let occurences = Object.values(obj); //Initilizing occurences equals to values of obj
 
     let set = new Set();
     for(let elem of occurences){
