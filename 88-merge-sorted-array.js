@@ -2,8 +2,8 @@
 // Output: [1,2,2,3,5,6]
 
 function merge(nums1, m, nums2, n){
-    let i = m-1;
-    let j = n-1;
+    let i = m-1;                     // Initilizing i variable equals to m-1.
+    let j = n-1;                     // Initilizing j variable equals to n-1.
     let k = m+n - 1;
    
     while(j >= 0){
